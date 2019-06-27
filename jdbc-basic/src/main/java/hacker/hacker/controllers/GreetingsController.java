@@ -20,6 +20,7 @@ public class GreetingsController {
 	@Autowired
 	JdbcTemplate jdbctemp;
 	
+	
     /**
      *
      * @param name the name to greet
@@ -43,4 +44,7 @@ public class GreetingsController {
 		//System.out.println(name +" "+lname);
         return "Hello " + name +lname +"!";
     }
+    
+    
+
 }
