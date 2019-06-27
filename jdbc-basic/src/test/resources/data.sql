@@ -1,0 +1,1 @@
+insert into HELLO values ('ramprakash','singh');
